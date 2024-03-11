@@ -7,10 +7,8 @@ let submit=document.querySelector('button');
 let input=document.querySelector('input');
 submit.addEventListener('click', async()=>{
     let res=await axios.get(url3);
-    if(res.data.state-province==input.value){
-        listOfColleges(res.data);
-    }
     console.log(res.data);
+    listOfColleges(res.data);
 })
 
 function listOfColleges(arr){
