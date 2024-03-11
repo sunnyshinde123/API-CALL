@@ -20,10 +20,7 @@ function listOfColleges(arr){
         let list=document.createElement('li');
         list.innerText=li.name;
         ul.appendChild(list);
-        // if(li.state-province==input.value){
-        //     list.innerText=li.name;
-        //     ul.appendChild(list);
-        // }
+        
     }
 }
 
