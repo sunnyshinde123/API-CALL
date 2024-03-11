@@ -18,10 +18,6 @@ function listOfColleges(arr){
         let list=document.createElement('li');
         list.innerText=li.name;
         ul.appendChild(list);
-
-
-        
-
     }
 }
 
